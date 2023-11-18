@@ -1,0 +1,47 @@
+.widget_lg {
+    flex: 2;
+    border-radius: 10px;
+    padding: 1.2rem;
+    &__table {
+        width: 100%;
+        border-spacing: 1.4rem;
+        &-th {
+            text-align: left;
+            font-size: 1.4rem;
+            color: #3e3e41;
+        }
+    }
+    &__user {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        &-name {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+    &__date {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    &__amount {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
+Button {
+    border: none;
+    border-radius: 10px;
+    padding: .4rem;
+    color: black;
+    cursor: pointer;
+}
+.Approved {
+    background-color: #c1fce5;
+}
+.Declined {
+    background-color: #ff9aa0;
+}
+.Pending {
+    background-color: #d9d9fa;
+}

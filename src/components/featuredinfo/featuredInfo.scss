@@ -1,0 +1,29 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    &-item {
+        flex: 1;
+        padding: 1.2rem;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column; 
+        .descr {
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+            .rate {
+                font-size: 1.2rem;
+                font-weight: 400;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    &-item:hover {
+        scale: 1.01;
+    }
+}
