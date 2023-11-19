@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import Title from "./styled-components/Title"
 import Button from "./styled-components/Button"
+import { Link } from "react-router-dom"
 
 
 const Blur = styled.div`
@@ -47,12 +48,14 @@ const InfoBox = styled.div`
 const CategoryItem = ({item}) => {
     return (
         <StyledCategoryItem>
-            <Image src={item.img}/>
-            <Blur/>
-            <InfoBox>
-                <Title AS color={"white"} fs={'4rem'}>{item.title}</Title>
-                <Button outlined fw={'600'} align={'center'} fs={'1rem'} bs={'2px'}>Shop Now</Button>
-            </InfoBox>
+            <Link to={`/products/${item.category}`}>
+                <Image src={item.img}/>
+                <Blur/>
+                <InfoBox>
+                    <Title AS color={"white"} fs={'4rem'}>{item.title}</Title>
+                    <Button outlined fw={'600'} align={'center'} fs={'1rem'} bs={'2px'}>Shop Now</Button>
+                </InfoBox>
+            </Link>
         </StyledCategoryItem>
     )
 }

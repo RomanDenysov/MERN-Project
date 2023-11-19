@@ -14,7 +14,7 @@ const Categories = (props) => {
     return (
         <StyledCategories {...props}>
             <Wrapper>
-                <Grid tempCol={'repeat(3, auto)'}>
+                <Grid tempcol={'repeat(3, auto)'}>
                     {categoryItem.map((item)=>(
                         <CategoryItem item={item} key={item.id}/>
                     ))}

@@ -46,25 +46,19 @@ export const categoryItem = [
         id: 1,
         img: 'https://t3.ftcdn.net/jpg/05/39/90/48/360_F_539904827_5k9ndXrLqodNuG3OiZlaGF6UxGuwsBwq.jpg',
         title: 'Last Colection',
-        descr: 'Dont waste you chance to but some staff with 30% discount',
-        btn: 'Buy Now',
-        bg: 'white'
+        category: 'arabica'
     },
     {
         id: 2,
         img: 'https://t3.ftcdn.net/jpg/05/39/90/48/360_F_539904827_5k9ndXrLqodNuG3OiZlaGF6UxGuwsBwq.jpg',
         title: 'Merch and Staff',
-        descr: 'Dont waste you chance to but some staff with 30% discount',
-        btn: 'Buy Now',
-        bg: 'white'
+        category: 'merch'
     },
     {
         id: 3,
         img: 'https://t3.ftcdn.net/jpg/05/39/90/48/360_F_539904827_5k9ndXrLqodNuG3OiZlaGF6UxGuwsBwq.jpg',
         title: 'LUCKY Shit',
-        descr: 'Dont waste you chance to but some staff with 30% discount',
-        btn: 'Buy Now',
-        bg: 'white'
+        category: 'robusta'
     },
     // {
     //     id: 3,

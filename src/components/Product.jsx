@@ -1,8 +1,8 @@
 import styled from "styled-components"
-import Wrapper from "../components/styled-components/Wrapper"
-import Title from "../components/styled-components/Title"
-import Flex from "../components/styled-components/Flex"
-import Button from "../components/styled-components/Button"
+import Wrapper from "./styled-components/Wrapper"
+import Title from "./styled-components/Title"
+import Flex from "./styled-components/Flex"
+import Button from "./styled-components/Button"
 import { Add, Remove } from "@mui/icons-material"
 
 const StyledProduct = styled.div`

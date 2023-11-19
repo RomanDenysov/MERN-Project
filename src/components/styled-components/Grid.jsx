@@ -2,8 +2,8 @@ import styled, {css} from "styled-components"
 
 const StyldeGrid = styled.div`
     display: grid;
-    grid-template-columns: ${props=>props.tempCol || "repeat(4, auto)"};
-    grid-template-rows: ${props=>props.tempRow || 'repeat(auto-fill, auto)'};
+    grid-template-columns: ${props=>props.tempcol || "repeat(4, auto)"};
+    grid-template-rows: ${props=>props.temprow || 'repeat(auto-fill, auto)'};
     grid-auto-flow: row;
     gap: ${props=>props.gap || '1rem'};
     justify-items: ${props=>props.justify || 'center'};

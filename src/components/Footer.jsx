@@ -91,7 +91,7 @@ const Footer = () => {
   return (
     <StyledFooter>
         <Wrapper>
-            <Grid tempCol={'repeat(3, auto)'} gap={'1rem'}>
+            <Grid tempcol={'repeat(3, auto)'} gap={'1rem'}>
                 <FooterBox>
                     <Flex directon={'column'} justify={'space-between'} align={'start'} gap={'1rem'}>
                         <Logo color={'black'}/>
