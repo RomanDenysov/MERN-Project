@@ -56,7 +56,7 @@ router.get('/find/:id', async (req,res) => {
     }
 });
 
-// GET ALL USERS METHOD 
+// GET ALL PRODUCT METHOD 
 router.get('/', async (req, res) => {
     const qNew = req.query.new
     const qCategory = req.query.category
